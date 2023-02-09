@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+    background-color: gray;
+}
+
+h2 {
+    color: cornflowerblue;
+    background-color:firebrick;
+}
+
+h3 {
+    color:darkviolet;
+    background-color: thistle;
+}
+
+p {
+    color:rgb(38, 221, 38);
+}
+
+#base { 
+    color: royalblue;
+}
+
+#upper {
+    color:lightpink;
+}
+
+.contactinfo {
+    color: black;
+}
+
+.sequences {
+    text-decoration: underline;
+}
+
+#GPA {
+    text-decoration:underline;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+   color: yellow;
+}
