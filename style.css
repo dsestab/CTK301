@@ -1,0 +1,61 @@
+h1 {
+    color: whitesmoke;
+    background-color: purple;
+}
+
+.blackonpurple {
+    color:black;
+    background-color: purple;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color:lightskyblue;
+}
+
+#doctor1 {
+    color: orange;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.redtime {
+    color:red
+}
+h4 {
+    color: azure;
+    background-color: maroon;
+}
+
+.weirdbackground {
+    background-color: aquamarine;
+}
+
+.fancycolor {
+    color: slategray;
+}
+
+h5 {
+    color:red;
+}
+
+#neon {
+    background-color: yellow;
+}
+
+#doctor2 {
+    color:blue;
+    font-weight: bold;
+}
