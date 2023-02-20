@@ -1,0 +1,84 @@
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.textjustify {
+    text-align: justify;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+body {
+    background-image: url(ctkbkg.jpg);
+}
+
+h1 {
+    color: orange;
+    background-color: gray;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    color: orange;
+    background-color: cornflowerblue;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color:orange;
+    background-color: thistle;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.zeroout {
+    margin: 0;
+    padding: 0;
+}
+
+.imgagemod {
+    border: 10px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+p {
+    color:rgb(38, 221, 38);
+}
+
+#base { 
+    color: royalblue;
+}
+
+#upper {
+    color:lightpink;
+}
+
+.contactinfo {
+    color: black;
+}
+
+.sequences {
+    text-decoration: underline;
+}
+
+#GPA {
+    text-decoration:underline;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+   color: yellow;
+}
