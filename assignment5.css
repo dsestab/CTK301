@@ -1,0 +1,92 @@
+body {
+    background-image: url(a5bg.png)
+}
+
+.helvitica {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    background-color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+nav li a:hover {
+    background-color: darkblue;
+}
+
+.mainbody {
+    background-color: white;
+}
+
+.helvitica2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+hr {
+    color: black;
+    margin: 20px;
+    height: 3px;
+    background-color: black;
+}
+
+.bodytext {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bodytext2 {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+nav2 a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav2 a:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer {
+    border: 3px solid white;
+    background-color: darkblue;
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
