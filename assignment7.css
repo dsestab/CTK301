@@ -1,0 +1,173 @@
+#wrapper {
+    width: 960px;
+    border: 3px solid blue;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+h1 {
+    grid-column: span 12;
+    background-image: linear-gradient(to top, #051937, #113c63, #176391, #168ebf, #12bceb);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+h1 a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#currentpage {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to top, #051937, #113c63, #176391, #168ebf, #12bceb);
+}
+
+nav li {
+    width: 300px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    grid-column: span 12;
+}
+
+nav li a {
+    color:lightblue;
+    display: block;
+    text-decoration: none;
+    grid-column: span 12;
+    border: 3px solid blue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: green !important;
+
+}
+
+aside {
+    grid-column: span 3;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+aside h2 {
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
+#justify {
+    font-weight: bold;
+    text-align:justify;
+    font-size: 15px;
+}
+
+main {
+    grid-column: span 9;
+    padding: 20px;
+}
+
+#floater {
+    float: left;
+    margin-right: 10px;
+    border: 3px solid blue;
+}
+
+#floating {
+    float: right;
+    margin-left: 10px;
+    border: 3px solid blue;
+}
+
+main h2 {
+    border-bottom: 3px solid blue;
+    color: blue;
+    grid-column: span 4;
+}
+
+main a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 3px solid blue;
+    background-color: red;
+    padding: 15px;
+}
+
+.image {
+    width: 250px;
+    margin-top: -5px;
+    grid-column: span 4;
+}
+
+#evelyn {
+    width: auto;
+    grid-column: span 4;
+    background-color: white;
+    font-weight:normal !important;
+}
+
+#evelyn a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#evelyn a:hover {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#waymond {
+    width: auto;
+    grid-column: span 4;
+    background-color: white;
+}
+
+#joy {
+    width: auto;
+    grid-column: span 4;
+    background-color: white;
+}
+
+#joy a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#joy a:hover {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
