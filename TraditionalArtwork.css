@@ -22,36 +22,49 @@ h1 {
     margin-bottom: 10px;
 }
 
+aside {
+    grid-column: span 4;
+}
+
+#top {
+    margin-top: 10px;
+}
+
+#bottom {
+    margin-bottom: 10px;
+}
+
+nav li a {
+    display:inline-block;
+    list-style-type: none;
+    width: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+    font-size: 25px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: grey;
+    color: white;
+}
+
 main {
-    grid-column: span 12;
-    display: inline-block;
+    grid-column: span 8;
+    margin-left: 5px;
 }
 
 main p {
     background-color: lightgray;
     padding: 10px;
-}
-
-footer {
-    grid-column: span 2;
-    color: black;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    padding: 10px;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: grey;
 }
 
 img {
